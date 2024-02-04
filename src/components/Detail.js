@@ -14,7 +14,8 @@ const Detail = () => {
 
   return (
     <div>
-    <h1>Detail Page</h1>
+    <h1>Detail Page </h1>
+    <h2>Post No. {post.id}</h2>
     <img src={`https://picsum.photos/200?random=${post.id}`} alt="Girl in a jacket" width="500" height="600"/>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
